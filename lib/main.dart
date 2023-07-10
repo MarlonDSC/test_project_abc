@@ -89,6 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
               itemCount: state.users.length,
               itemBuilder: (context, index) {
                 return ListTile(
+                  leading: Image.network(state.users[index].pictureUrl!),
                   title:
                       Text(state.users[index].firstName ?? 'No name provided'),
                 );

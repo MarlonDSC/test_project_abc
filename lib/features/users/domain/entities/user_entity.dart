@@ -10,7 +10,7 @@ class User extends Equatable {
   final String? gender;
   final String? pictureUrl;
   final String? phone;
-  final DateTime? birthday;
+  final String? birthday;
   final String? twitterHandle;
 
   const User({
@@ -35,7 +35,7 @@ class User extends Equatable {
     String? gender,
     String? pictureUrl,
     String? phone,
-    DateTime? birthday,
+    String? birthday,
     String? twitterHandle,
   }) {
     return User(

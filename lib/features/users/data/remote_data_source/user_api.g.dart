@@ -42,6 +42,7 @@ class _UserAPIService implements UserAPIService {
     var value = _result.data!
         .map((dynamic i) => UserModel.fromJson(i as Map<String, dynamic>))
         .toList();
+    print(_result.data!);
     final httpResponse = HttpResponse(value, _result);
     return httpResponse;
   }

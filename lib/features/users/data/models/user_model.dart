@@ -7,7 +7,7 @@ class UserModel {
   final String gender;
   final String pictureUrl;
   final String phone;
-  final DateTime birthday;
+  final String birthday;
   final String twitterHandle;
 
   UserModel({
